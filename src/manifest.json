@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Easy Read Article Extension",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "英文文字を読みやすくするための拡張機能",
   "background": {
     "service_worker": "background.js"
