@@ -1,8 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Easy Read Article Extension",
-  "version": "0.0.10",
+  "version": "0.0.15",
   "description": "英文文字を読みやすくするための拡張機能",
+  "action": {
+    "default_title": "Easy Read Article Extension",
+    "default_popup": "index.html"
+  },
   "background": {
     "service_worker": "background.js"
   },
@@ -11,6 +15,8 @@
     "scripting"
   ],
   "host_permissions": [
-    "https://dev.to/*"
+    "https://dev.to/*",
+    "http://*/*",
+    "https://*/*"
   ]
 }
